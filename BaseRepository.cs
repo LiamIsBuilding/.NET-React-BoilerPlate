@@ -17,11 +17,11 @@ namespace _NET_React_Boiler
         {
             var StringBuilder = new NpgsqlConnectionStringBuilder
             {
-                Host = "", // e.g. ec2-1-2-3-4@eu-west-1.compute.amazonaws.com
-                Database = "", // e.g. ksdjfhsafnfas
-                Username = "", // e.g. lksfhdslkfsdflk
-                Password = "",// e.g KJZDldfj34567dslkfjsdlfksdjflsdkfjsdlkfjsdl34567fkjdsgDRTYUI
-                Port = , // e.g 5432
+                Host = "",
+                Database = "",
+                Username = "",
+                Password = "",
+                Port = ,
                 SslMode = Npgsql.SslMode.Require, // Heroku Specific Setting
                 TrustServerCertificate = true // Heroku Specific Setting
             };
